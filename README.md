@@ -1,6 +1,6 @@
 # Unified 2D Human Pose Estimation using Knowledge Distillation
 
-### "Project : Computer Vision & Deep Learning" offered by Augmented Vision Group, DFKI, Kaiserslautern
+### Part of "Project : Computer Vision & Deep Learning" offered by Augmented Vision Group, DFKI, Kaiserslautern
 
 There exist multiple datasets for 2D human pose estimation, each with its unique set of annotated body joints.Generally, each neural network is trained on a particular dataset.This approach often results in networks that excel on their specific dataset but struggle when tested on others. Thus, there rarely exists a network which can perform well on most of the datasets. Using the concept of knowledge distillation, we have used a group of pre-trained teachers networks (COCO teacher model & MPII teacher model) to help create a single, adaptable student network capable of estimating poses across dataset (COCO as well as MPII).
 ## Installation
